@@ -1,7 +1,25 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+// Get both user(their first and last name) inputs.
+let firstName = getInput(0);
+let lastName = getInput(1) 
 
+// Get initials of both inputs and combine them.
+function init(first, last){
+  return first[0] + '.' + last[0] + '.';
+}
+// Storing the initial into a variable named init.
+let initials = init(firstName, lastName)
+
+// Calculate the combined length of both inputs into a variable.
+let nameLength = firstName.length + lastName.length;
+
+// Making variable that reads the message in the workflow output.
+let output = 'Hey, ' + initials + ' Mind if I call you that? Your full name is ' + nameLength + ' letters long!'
+
+// Passing the message to a console.log
+console.log(output)
 
 
 /*******************************************************************************
