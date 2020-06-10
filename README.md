@@ -44,7 +44,7 @@ From a code perspective, we'll be using two inputs now (the user's first name an
 
 ##### 3. Call that function, passing in the user's inputs from step 1. Store the result in a variable.
 
-###### 4. Calculate the combined length of the first name and the second name. For example, for 'Colin' and 'Jaffe', we should get 10. Store that in another variable.
+##### 4. Calculate the combined length of the first name and the second name. For example, for 'Colin' and 'Jaffe', we should get 10. Store that in another variable.
 
 ##### 5. Create a message that follows the format from the output outlined in the Workflow section. Store that message string in a variable.
 
